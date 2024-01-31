@@ -4,7 +4,8 @@
     align-items: center
     border: 1px solid black
     padding: 16px
-    max-height: 500px
+    width: 100%
+    height: 100%
     background-color: var(--post-background-color)
     color: var(--post-text-color)
     box-shadow: 0px 10px 21px -6px var(--shadow-color)
@@ -15,11 +16,13 @@
 .postProfilePic
     height: 25px
     width: 25px
+    border-radius: 50%
 
 .postImg
-    height: 400px
-    width: 400px
-
+    height: 100%
+    width: 100%
+    object-fit: contain
+   
 .postProfileName
     padding-left: 8px
     color: var(--post-text-color)
@@ -32,6 +35,4 @@
     flex-direction: row
     align-items: center
     width: 100%
-    position: absolute
-    top: 16px
-    margin-left: 16px
+    height: 25px
